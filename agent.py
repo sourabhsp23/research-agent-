@@ -11,7 +11,7 @@ import os
 
 # CONFIG 
 
-GROQ_API_KEY = "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"  # <-- put your key here
+GROQ_API_KEY = ""  # <-- put your key here
 GROQ_MODEL = "llama-3.1-8b-instant"  # fast + light tokens
 
 # Guardrail: fail early if key missing
