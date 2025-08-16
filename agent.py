@@ -11,8 +11,8 @@ import os
 
 # CONFIG 
 
-GROQ_API_KEY = ""  # <-- put your key here
-GROQ_MODEL = "llama-3.1-8b-instant"  # fast + light tokens
+GROQ_API_KEY = ""  
+GROQ_MODEL = "llama-3.1-8b-instant" 
 
 # Guardrail: fail early if key missing
 if GROQ_API_KEY == "YOUR_GROQ_API_KEY":
